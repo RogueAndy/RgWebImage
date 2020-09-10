@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "RgWebImage"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "图片加载组件"
   s.description  = <<-DESC
                     关于图片加载组件
@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
   s.frameworks = "UIKit", "Foundation"
   s.requires_arc = true
   s.dependency "SDWebImage", "5.0.2"
-  s.dependency "AFNetworking", "3.2.1"
+  s.dependency "AFNetworking"
 end
